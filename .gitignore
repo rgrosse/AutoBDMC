@@ -1,2 +1,17 @@
 .DS_Store
 *.pyc
+
+# generated code
+models/*.hpp
+models/collapsed
+models/uncollapsed
+models/lin_regression
+models/lin_regression_hp
+experiments/fixed_hp/lr_fixed_hp
+experiments/fixed_hp/lr_fixed_hp.hpp
+
+# results
+experiments/*/gen
+experiments/*/jobs.list
+experiments/*/results
+
